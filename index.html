@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PawLux — Pet Shop Premium</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lucide/0.263.1/umd/lucide.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==================== NAVBAR ==================== -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <div class="logo-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 10c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2s2 .9 2 2v4c0 1.1-.9 2-2 2z"/>
+                        <path d="M18.5 10c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2s2 .9 2 2v2c0 1.1-.9 2-2 2z"/>
+                        <path d="M5.5 10c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2s2 .9 2 2v2c0 1.1-.9 2-2 2z"/>
+                        <path d="M12 22c-4 0-7-2-7-5 0-2 2-4 4-5.5 1.5-1 3-1.5 3-1.5s1.5.5 3 1.5c2 1.5 4 3.5 4 5.5 0 3-3 5-7 5z"/>
+                    </svg>
+                </div>
+                <span class="logo-text">Paw<span>Lux</span></span>
+            </a>
+            <div class="nav-links">
+                <a href="#services">Servicos</a>
+                <a href="#about">Sobre</a>
+                <a href="#products">Produtos</a>
+                <a href="#testimonials">Depoimentos</a>
+                <a href="#contact" class="nav-cta">Agendar</a>
+            </div>
+            <button class="menu-toggle" aria-label="Menu">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="6" x2="21" y2="6"/>
+                    <line x1="3" y1="12" x2="21" y2="12"/>
+                    <line x1="3" y1="18" x2="21" y2="18"/>
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ==================== HERO ==================== -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-shapes">
+            <div class="circle circle-1"></div>
+            <div class="circle circle-2"></div>
+            <div class="circle circle-3"></div>
+        </div>
+
+        <!-- Paw print decorations -->
+        <div class="paw-decoration paw-1">
+            <svg width="60" height="60" viewBox="0 0 100 100"><ellipse cx="50" cy="65" rx="22" ry="18"/><ellipse cx="30" cy="35" rx="10" ry="12"/><ellipse cx="70" cy="35" rx="10" ry="12"/><ellipse cx="18" cy="52" rx="9" ry="11"/><ellipse cx="82" cy="52" rx="9" ry="11"/></svg>
+        </div>
+        <div class="paw-decoration paw-2">
+            <svg width="45" height="45" viewBox="0 0 100 100"><ellipse cx="50" cy="65" rx="22" ry="18"/><ellipse cx="30" cy="35" rx="10" ry="12"/><ellipse cx="70" cy="35" rx="10" ry="12"/><ellipse cx="18" cy="52" rx="9" ry="11"/><ellipse cx="82" cy="52" rx="9" ry="11"/></svg>
+        </div>
+        <div class="paw-decoration paw-3">
+            <svg width="50" height="50" viewBox="0 0 100 100"><ellipse cx="50" cy="65" rx="22" ry="18"/><ellipse cx="30" cy="35" rx="10" ry="12"/><ellipse cx="70" cy="35" rx="10" ry="12"/><ellipse cx="18" cy="52" rx="9" ry="11"/><ellipse cx="82" cy="52" rx="9" ry="11"/></svg>
+        </div>
+        <div class="paw-decoration paw-4">
+            <svg width="40" height="40" viewBox="0 0 100 100"><ellipse cx="50" cy="65" rx="22" ry="18"/><ellipse cx="30" cy="35" rx="10" ry="12"/><ellipse cx="70" cy="35" rx="10" ry="12"/><ellipse cx="18" cy="52" rx="9" ry="11"/><ellipse cx="82" cy="52" rx="9" ry="11"/></svg>
+        </div>
+
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <div class="dot"></div>
+                    Atendimento Premium
+                </div>
+                <h1 class="hero-title">
+                    Cuidado de <span class="highlight">excelência</span> para quem voce mais ama
+                </h1>
+                <p class="hero-description">
+                    Oferecemos servicos veterinarios, esteticos e produtos de alta qualidade para proporcionar saude, beleza e bem-estar ao seu pet.
+                </p>
+                <div class="hero-actions">
+                    <a href="#contact" class="btn-primary">
+                        Agendar consulta
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </a>
+                    <a href="#services" class="btn-secondary">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+                        Conhecer servicos
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <div class="hero-stat-number">12<span>k+</span></div>
+                        <div class="hero-stat-label">Pets atendidos</div>
+                    </div>
+                    <div class="hero-stat">
+                        <div class="hero-stat-number">15<span>+</span></div>
+                        <div class="hero-stat-label">Anos de experiencia</div>
+                    </div>
+                    <div class="hero-stat">
+                        <div class="hero-stat-number">4.9<span>/5</span></div>
+                        <div class="hero-stat-label">Avaliacao media</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=700&h=875&fit=crop&q=80" alt="Golden Retriever feliz" loading="eager">
+                </div>
+                <div class="hero-floating-card card-1">
+                    <div class="floating-card-icon gold">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                    </div>
+                    <div class="floating-card-text">
+                        <strong>Check-up completo</strong>
+                        <span>Saude em dia, sempre</span>
+                    </div>
+                </div>
+                <div class="hero-floating-card card-2">
+                    <div class="floating-card-icon brown">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                    </div>
+                    <div class="floating-card-text">
+                        <strong>+2.400 avaliacoes</strong>
+                        <span>Clientes satisfeitos</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== TRUSTED ==================== -->
+    <section class="trusted-section">
+        <div class="container">
+            <div class="trusted-label">Parceiros e marcas de confianca</div>
+            <div class="trusted-logos">
+                <div class="trusted-logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                    Royal Canin
+                </div>
+                <div class="trusted-logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                    PremieR
+                </div>
+                <div class="trusted-logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                    GranPlus
+                </div>
+                <div class="trusted-logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    Hills
+                </div>
+                <div class="trusted-logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    Pedigree
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SERVICES ==================== -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <div class="section-tag">Nossos Servicos</div>
+                <h2 class="section-title">Tudo que seu pet precisa em um so lugar</h2>
+                <p class="section-subtitle">Da consulta veterinaria ao banho relaxante, oferecemos uma experiencia completa de cuidado.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon gold-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                    </div>
+                    <h3>Veterinario</h3>
+                    <p>Consultas, exames, vacinas e cirurgias com equipe veterinaria especializada e equipamentos de ultima geracao.</p>
+                    <span class="service-price">A partir de R$ 120</span>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon brown-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                    </div>
+                    <h3>Banho & Tosa</h3>
+                    <p>Banho hidratante, tosa especializada e tratamentos esteticos com produtos premium para todas as racas.</p>
+                    <span class="service-price">A partir de R$ 65</span>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon gold-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                    </div>
+                    <h3>Hotel & Creche</h3>
+                    <p>Hospedagem de luxo com monitoramento 24h, area de lazer ampla e cuidado personalizado para cada pet.</p>
+                    <span class="service-price">A partir de R$ 85/dia</span>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon brown-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+                    </div>
+                    <h3>Adestramento</h3>
+                    <p>Treinamento comportamental positivo com adestradores certificados para caes de todos os portes e idades.</p>
+                    <span class="service-price">A partir de R$ 150</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ABOUT ==================== -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-images animate-on-scroll">
+                <div class="about-experience-badge">
+                    <span class="number">15</span>
+                    <span class="text">Anos</span>
+                </div>
+                <div class="about-img-main">
+                    <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=700&h=525&fit=crop&q=80" alt="Dois caes correndo juntos" loading="lazy">
+                </div>
+                <div class="about-img-secondary">
+                    <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=300&h=300&fit=crop&q=80" alt="Bulldog charmoso" loading="lazy">
+                </div>
+            </div>
+            <div class="about-content animate-on-scroll">
+                <div class="section-header">
+                    <div class="section-tag">Quem Somos</div>
+                    <h2 class="section-title">Dedicacao que seu pet merece</h2>
+                </div>
+                <p class="about-text">
+                    Desde 2009, a PawLux e referencia em cuidado animal. Nossa equipe de veterinarios, groomers e treinadores e movida pela paixao por proporcionar o melhor para cada pet que entra por nossas portas.
+                </p>
+                <div class="about-features">
+                    <div class="about-feature">
+                        <div class="about-feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                        </div>
+                        <span>Equipe certificada</span>
+                    </div>
+                    <div class="about-feature">
+                        <div class="about-feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                        </div>
+                        <span>Atendimento 24h</span>
+                    </div>
+                    <div class="about-feature">
+                        <div class="about-feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                        </div>
+                        <span>Ambiente seguro</span>
+                    </div>
+                    <div class="about-feature">
+                        <div class="about-feature-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                        </div>
+                        <span>Cuidado humanizado</span>
+                    </div>
+                </div>
+                <a href="#contact" class="btn-primary" style="background: var(--gold);">
+                    Conheca nossa estrutura
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PRODUCTS ==================== -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <div class="section-tag">Pet Shop</div>
+                <h2 class="section-title">Produtos selecionados para seu pet</h2>
+                <p class="section-subtitle">Nutricao premium, acessorios e brinquedos das melhores marcas do mercado.</p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card animate-on-scroll">
+                    <div class="product-image">
+                        <span class="product-badge">Novo</span>
+                        <button class="product-wishlist" aria-label="Favoritar">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                        </button>
+                        <img src="https://images.unsplash.com/photo-1568640347023-a616a30bc3bd?w=400&h=400&fit=crop&q=80" alt="Racao premium" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Alimentacao</div>
+                        <div class="product-name">Racao Super Premium 15kg</div>
+                        <div class="product-rating">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                            <span>5.0 (128)</span>
+                        </div>
+                        <div class="product-price-row">
+                            <div class="product-price">R$ 189 <span class="old">R$ 239</span></div>
+                            <button class="product-add-btn" aria-label="Adicionar ao carrinho">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card animate-on-scroll">
+                    <div class="product-image">
+                        <button class="product-wishlist" aria-label="Favoritar">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                        </button>
+                        <img src="https://www.meupetmimado.com.br/cdn/shop/files/1_f28d3823-4d25-4b1f-8c46-4b55b90ee7e6_800x.png?v=1721970668" alt="Cama pet premium" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Conforto</div>
+                        <div class="product-name">Cama Ortopedica Premium</div>
+                        <div class="product-rating">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                            <span>4.9 (87)</span>
+                        </div>
+                        <div class="product-price-row">
+                            <div class="product-price">R$ 349</div>
+                            <button class="product-add-btn" aria-label="Adicionar ao carrinho">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card animate-on-scroll">
+                    <div class="product-image">
+                        <span class="product-badge">-20%</span>
+                        <button class="product-wishlist" aria-label="Favoritar">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                        </button>
+                        <img src="https://images.unsplash.com/photo-1576201836106-db1758fd1c97?w=400&h=400&fit=crop&q=80" alt="Kit higiene pet" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Higiene</div>
+                        <div class="product-name">Kit Spa Completo</div>
+                        <div class="product-rating">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                            <span>4.8 (204)</span>
+                        </div>
+                        <div class="product-price-row">
+                            <div class="product-price">R$ 119 <span class="old">R$ 149</span></div>
+                            <button class="product-add-btn" aria-label="Adicionar ao carrinho">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card animate-on-scroll">
+                    <div class="product-image">
+                        <button class="product-wishlist" aria-label="Favoritar">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                        </button>
+                        <img src="https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=400&h=400&fit=crop&q=80" alt="Coleira premium" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Acessorios</div>
+                        <div class="product-name">Coleira Couro Legitimo</div>
+                        <div class="product-rating">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                            <span>4.9 (156)</span>
+                        </div>
+                        <div class="product-price-row">
+                            <div class="product-price">R$ 89</div>
+                            <button class="product-add-btn" aria-label="Adicionar ao carrinho">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== TESTIMONIALS ==================== -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <div class="section-tag">Depoimentos</div>
+                <h2 class="section-title">O que nossos clientes dizem</h2>
+                <p class="section-subtitle">A satisfacao de quem confia na PawLux fala por si.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card animate-on-scroll">
+                    <div class="testimonial-stars">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </div>
+                    <p class="testimonial-text">
+                        Minha Mel adora ir a PawLux. O atendimento e impecavel, a equipe trata cada pet como se fosse da familia. Recomendo de olhos fechados para todos os tutores.
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">
+                            <span class="testimonial-avatar-placeholder">CS</span>
+                        </div>
+                        <div class="testimonial-author-info">
+                            <strong>Camila Santos</strong>
+                            <span>Tutora da Mel, Golden Retriever</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card animate-on-scroll">
+                    <div class="testimonial-stars">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </div>
+                    <p class="testimonial-text">
+                        O hotel pet e fantastico. Viajei tranquilo sabendo que meu Thor estava em otimas maos. Recebi fotos e atualizacoes diarias. Servico de primeiro mundo.
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">
+                            <span class="testimonial-avatar-placeholder">RM</span>
+                        </div>
+                        <div class="testimonial-author-info">
+                            <strong>Rafael Mendes</strong>
+                            <span>Tutor do Thor, Pastor Alemao</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card animate-on-scroll">
+                    <div class="testimonial-stars">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </div>
+                    <p class="testimonial-text">
+                        A Dra. Fernanda salvou minha gatinha Luna quando ela teve uma emergencia. Profissionalismo e carinho que nao encontro em nenhum outro lugar. Gratidao eterna.
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">
+                            <span class="testimonial-avatar-placeholder">JL</span>
+                        </div>
+                        <div class="testimonial-author-info">
+                            <strong>Julia Lima</strong>
+                            <span>Tutora da Luna, Persa</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CTA ==================== -->
+    <section class="cta-section" id="contact">
+        <div class="container">
+            <div class="cta-box animate-on-scroll">
+                <div class="cta-content">
+                    <h2 class="cta-title">Agende agora e ganhe <span>15% de desconto</span></h2>
+                    <p class="cta-text">Primeira consulta ou banho com desconto especial. Cadastre-se e receba ofertas exclusivas para seu pet.</p>
+                    <div class="cta-form">
+                        <input type="email" placeholder="Seu melhor e-mail" aria-label="E-mail">
+                        <button type="button">Quero agendar</button>
+                    </div>
+                    <p class="cta-disclaimer">Sem spam. Cancele quando quiser.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="logo" style="margin-bottom: 16px;">
+                        <div class="logo-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 10c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2s2 .9 2 2v4c0 1.1-.9 2-2 2z"/>
+                                <path d="M18.5 10c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2s2 .9 2 2v2c0 1.1-.9 2-2 2z"/>
+                                <path d="M5.5 10c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2s2 .9 2 2v2c0 1.1-.9 2-2 2z"/>
+                                <path d="M12 22c-4 0-7-2-7-5 0-2 2-4 4-5.5 1.5-1 3-1.5 3-1.5s1.5.5 3 1.5c2 1.5 4 3.5 4 5.5 0 3-3 5-7 5z"/>
+                            </svg>
+                        </div>
+                        <span class="logo-text">Paw<span>Lux</span></span>
+                    </div>
+                    <p>Cuidado premium para o seu melhor amigo. Saude, beleza e bem-estar animal desde 2009.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                        </a>
+                        <a href="#" aria-label="Facebook">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                        </a>
+                        <a href="#" aria-label="YouTube">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19.13C5.12 19.56 12 19.56 12 19.56s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.43z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
+                        </a>
+                        <a href="#" aria-label="WhatsApp">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Servicos</h4>
+                    <ul>
+                        <li><a href="#">Consulta Veterinaria</a></li>
+                        <li><a href="#">Banho & Tosa</a></li>
+                        <li><a href="#">Hotel Pet</a></li>
+                        <li><a href="#">Adestramento</a></li>
+                        <li><a href="#">Vacinacao</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="#">Sobre nos</a></li>
+                        <li><a href="#">Equipe</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Carreiras</a></li>
+                        <li><a href="#">Parceiros</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <div class="footer-contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        <span>Av. Paulista, 1578<br>Sao Paulo - SP</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        <span>(11) 3456-7890</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        <span>contato@pawlux.com.br</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>2024 PawLux. Todos os direitos reservados.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Politica de Privacidade</a>
+                    <a href="#">Termos de Uso</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== SCRIPTS ==================== -->
+    <script>
+        // Navbar scroll effect
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            navbar.classList.toggle('scrolled', window.scrollY > 50);
+        });
+
+        // Scroll animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry, index) => {
+                if (entry.isIntersecting) {
+                    setTimeout(() => {
+                        entry.target.classList.add('visible');
+                    }, index * 100);
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+        document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // Mobile menu toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        if (menuToggle) {
+            menuToggle.addEventListener('click', () => {
+                const isOpen = navLinks.style.display === 'flex';
+                navLinks.style.display = isOpen ? 'none' : 'flex';
+                if (!isOpen) {
+                    navLinks.style.flexDirection = 'column';
+                    navLinks.style.position = 'absolute';
+                    navLinks.style.top = '100%';
+                    navLinks.style.left = '0';
+                    navLinks.style.right = '0';
+                    navLinks.style.background = 'rgba(255,255,255,0.98)';
+                    navLinks.style.padding = '24px';
+                    navLinks.style.gap = '20px';
+                    navLinks.style.boxShadow = '0 12px 40px rgba(62,39,35,0.12)';
+                    navLinks.style.borderRadius = '0 0 16px 16px';
+                    navLinks.style.backdropFilter = 'blur(20px)';
+                }
+            });
+        }
+
+        // Wishlist button toggle
+        document.querySelectorAll('.product-wishlist').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const svg = this.querySelector('svg');
+                const isFilled = svg.getAttribute('fill') !== 'none';
+                svg.setAttribute('fill', isFilled ? 'none' : '#D4A017');
+                svg.setAttribute('stroke', isFilled ? 'currentColor' : '#D4A017');
+            });
+        });
+    </script>
+</body>
+</html>

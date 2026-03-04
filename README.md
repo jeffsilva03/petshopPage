@@ -22,7 +22,7 @@ A proposta era clara: fugir de layouts genéricos e criar algo com identidade vi
 
 ## Objetivos da entrega
 
-- Construir uma landing page completa e funcional em um **único arquivo HTML**, sem dependências externas de build.
+- Construir uma landing page completa e funcional, sem dependências externas de build.
 - Aplicar uma paleta de cores definida pelo cliente: **amarelo dourado, marrom, branco e preto**.
 - Utilizar exclusivamente **ícones SVG inline e imagens** — nenhum emoji no projeto.
 - Garantir **responsividade total** para desktop, tablet e mobile.

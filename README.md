@@ -9,7 +9,7 @@
 
 **Landing page moderna, responsiva e de alta fidelidade visual para o nicho de pet shop.**
 
-[Demonstração](#-preview) · [Tecnologias](#-tecnologias) · [Como usar](#-como-usar) · [Estrutura](#-estrutura-do-projeto)
+[Tecnologias](#-tecnologias) · [Como usar](#-como-usar) · [Estrutura](#-estrutura-do-projeto)
 
 </div>
 

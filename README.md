@@ -1,4 +1,4 @@
-# PawLux — Landing Page para Pet Shop
+# Landing Page para Pet Shop
 
 <div align="center">
 
